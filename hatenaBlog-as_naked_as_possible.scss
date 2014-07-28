@@ -13,10 +13,11 @@ a {
 }
 
 #container, #footer {
-    margin: 0 auto;
-    padding: 0 1em;
+  width: 75%;
     max-width: 50em;
     min-width: 33em;
+  margin: 0 auto;
+  padding: 0 1em;
 }
 
 #title {
