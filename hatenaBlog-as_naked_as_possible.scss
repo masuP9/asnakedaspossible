@@ -58,8 +58,8 @@ h1 a, .date a {
     left: 6em;
 }
 
-.hatena-fotolife {
-    width: 100%;
+.hatena-fotolife, img.http-image {
+  max-width: 100%;
 }
 
 .hatena-asin-detail {
