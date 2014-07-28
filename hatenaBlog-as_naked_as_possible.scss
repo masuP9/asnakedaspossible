@@ -4,8 +4,12 @@ body, #globalheader-container {
     line-height: 1.5;
 }
 
+// Variable
+$linkColor: #129fc2;
+$bodyTextColor: #000;
+
 a {
-    color: #129fc2;
+  color: $linkColor;
 }
 
 #container, #footer {
@@ -28,7 +32,7 @@ a {
 }
 
 h1 a, .date a {
-    color: #000;
+  color: $bodyTextColor;
     text-decoration: none;
 }
 
