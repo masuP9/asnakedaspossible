@@ -35,6 +35,9 @@ a {
 h1 a, .date a {
   color: $bodyTextColor;
     text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .entry-inner {
