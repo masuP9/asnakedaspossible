@@ -23,13 +23,13 @@ a {
 #title {
     margin: 1.5em 0 0;
     font-size: 3em;
-    line-height: 1;
+  -webkit-font-smoothing: antialiased;
 }
 
 #blog-description {
-    margin: .5em 0;
+  margin: 0 0 .5em;
     font-size: 1.2em;
-    line-height: 1;
+  font-weight: normal;
 }
 
 h1 a, .date a {
